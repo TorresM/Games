@@ -1,5 +1,5 @@
 ---
-title: "Relación entre atributos de los Pokemons"
+title: "Relación entre atributos de los pokemons"
 author: "Marina Torres"
 output:
   html_document: default
@@ -16,7 +16,7 @@ library(corrplot)
 ```
 
 ## Los datos
-Los datos con los que se trabajan están formados por 1167 entradas con 9 variables. Se trata de distintos Pokemons y algunas de sus estadísticas en atributos como ataque, velocidad, tipo... Veamos la estructura de los datos visualizando las 4 primeras filas.
+Los datos con los que se trabajan están formados por 1167 entradas con 9 variables. Se trata de distintos pokemons y algunas de sus estadísticas en atributos como ataque, velocidad, tipo... Veamos la estructura de los datos visualizando las 4 primeras filas.
 
 ```{r, echo=TRUE}
 table[0:4,]
